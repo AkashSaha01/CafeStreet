@@ -1,4 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Global Body Styling */
 body {
-  margin: auto;
   background-color: rgb(246, 244, 229);
+}
+
+/* Header Styling */
+header {
+  font-family: "popins", sans-serif;
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+}
+
+/* Container for header content */
+.header-block {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-logo {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+#icon-logo {
+  height: 30px;
+  width: auto;
+  padding: 15px 10px;
+}
+.header-menu {
+  padding: 10px 0;
+  text-align: center;
+}
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.menu-link {
+  font-family: popins, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 15px;
+  font-size: 1rem;
+  color: rgb(81, 47, 12);
+}
+.header-icon {
+  padding: 24px 15px;
+  gap: 10px;
+  display: flex;
+  color: rgb(81, 47, 12);
+  justify-content: center;
+}
+#input-field {
+  background-color: aliceblue;
+  border-color: rgb(81, 47, 12);
+  border-radius: 8px;
+  height: 20px;
+  box-shadow: 2px 2px 1px rgb(132, 133, 133);
+  background-image: url("../images/searchIcon.png");
+  background-size: 16px;
+  background-position: 8px center;
+  background-repeat: no-repeat;
+}
+#cart-icon {
+  margin-top: 5px;
+  height: 25px;
+  width: auto;
 }
