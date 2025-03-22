@@ -12,7 +12,7 @@ body {
 /* Header Styling */
 header {
   font-family: "popins", sans-serif;
-  font-size: 1.1rem;
+  /* font-size: 1.1rem; */
   display: flex;
   justify-content: center;
   position: sticky;
@@ -29,14 +29,17 @@ header {
 .header-logo {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 5px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
+.logo-name {
+  padding-top: 2px;
+}
 #icon-logo {
+  padding: 2px 5px;
   height: 30px;
   width: auto;
-  padding: 15px 10px;
 }
 .header-menu {
   padding: 10px 0;
@@ -57,8 +60,8 @@ header {
   color: rgb(81, 47, 12);
 }
 .header-icon {
-  padding: 24px 15px;
-  gap: 10px;
+  padding-top: 12px;
+  gap: 15px;
   display: flex;
   color: rgb(81, 47, 12);
   justify-content: center;
